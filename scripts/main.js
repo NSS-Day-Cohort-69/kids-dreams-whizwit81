@@ -15,11 +15,12 @@ const applicationHTML = `
             <h2>Celebrities</h2>
             ${Celebrities()}
         </section>
-    </article>
+        </article>
 
-    <article class="assignments">
-        <h2>Pairings</h2>
-    </article>
+        <article class="assignments">
+            <h2>Pairings</h2>
+            ${Pairings()}
+            </article>
 `
 
 mainContainer.innerHTML = applicationHTML
